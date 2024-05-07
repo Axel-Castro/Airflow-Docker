@@ -1,0 +1,220 @@
+[2024-03-23T03:30:39.783+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:30:39.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/download_NASA_API_dags.py for tasks to queue
+[2024-03-23T03:30:39.785+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:30:39.785+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:30:40.195+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:30:40.191+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/download_NASA_API_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 15, in <module>
+    os.makedirs(output_estado_raw, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/airflow'
+[2024-03-23T03:30:40.196+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:30:40.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/download_NASA_API_dags.py took 0.446 seconds
+[2024-03-23T03:31:11.301+0000] {processor.py:161} INFO - Started process (PID=97) to work on /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:31:11.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/download_NASA_API_dags.py for tasks to queue
+[2024-03-23T03:31:11.303+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:31:11.303+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:31:11.681+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:31:11.677+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/download_NASA_API_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 15, in <module>
+    os.makedirs(output_estado_raw, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/airflow'
+[2024-03-23T03:31:11.682+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:31:11.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/download_NASA_API_dags.py took 0.422 seconds
+[2024-03-23T03:31:41.967+0000] {processor.py:161} INFO - Started process (PID=100) to work on /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:31:41.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/download_NASA_API_dags.py for tasks to queue
+[2024-03-23T03:31:41.969+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:31:41.969+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:31:42.334+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:31:42.330+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/download_NASA_API_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 15, in <module>
+    os.makedirs(output_estado_raw, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/airflow'
+[2024-03-23T03:31:42.335+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:31:42.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/download_NASA_API_dags.py took 0.407 seconds
+[2024-03-23T03:32:12.515+0000] {processor.py:161} INFO - Started process (PID=103) to work on /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:32:12.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/download_NASA_API_dags.py for tasks to queue
+[2024-03-23T03:32:12.517+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:32:12.517+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:32:12.924+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:32:12.920+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/download_NASA_API_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 15, in <module>
+    os.makedirs(output_estado_raw, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/airflow'
+[2024-03-23T03:32:12.925+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:32:12.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/download_NASA_API_dags.py took 0.452 seconds
+[2024-03-23T03:32:43.035+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:32:43.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/download_NASA_API_dags.py for tasks to queue
+[2024-03-23T03:32:43.037+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:32:43.036+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:32:43.417+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:32:43.412+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/download_NASA_API_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 15, in <module>
+    os.makedirs(output_estado_raw, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/airflow'
+[2024-03-23T03:32:43.417+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:32:43.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/download_NASA_API_dags.py took 0.422 seconds
+[2024-03-23T03:33:13.618+0000] {processor.py:161} INFO - Started process (PID=110) to work on /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:33:13.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/download_NASA_API_dags.py for tasks to queue
+[2024-03-23T03:33:13.621+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:33:13.620+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:33:13.994+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:33:13.990+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/download_NASA_API_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 15, in <module>
+    os.makedirs(output_estado_raw, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/airflow'
+[2024-03-23T03:33:13.995+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:33:14.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/download_NASA_API_dags.py took 0.419 seconds
+[2024-03-23T03:33:44.225+0000] {processor.py:161} INFO - Started process (PID=113) to work on /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:33:44.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/download_NASA_API_dags.py for tasks to queue
+[2024-03-23T03:33:44.227+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:33:44.227+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:33:44.607+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:33:44.602+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/download_NASA_API_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 15, in <module>
+    os.makedirs(output_estado_raw, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/airflow'
+[2024-03-23T03:33:44.607+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:33:44.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/download_NASA_API_dags.py took 0.416 seconds
+[2024-03-23T03:34:14.771+0000] {processor.py:161} INFO - Started process (PID=116) to work on /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:34:14.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/download_NASA_API_dags.py for tasks to queue
+[2024-03-23T03:34:14.773+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:34:14.772+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:34:15.162+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:34:15.157+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/download_NASA_API_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 15, in <module>
+    os.makedirs(output_estado_raw, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/airflow'
+[2024-03-23T03:34:15.162+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:34:15.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/download_NASA_API_dags.py took 0.426 seconds
+[2024-03-23T03:34:45.372+0000] {processor.py:161} INFO - Started process (PID=119) to work on /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:34:45.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/download_NASA_API_dags.py for tasks to queue
+[2024-03-23T03:34:45.373+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:34:45.373+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:34:45.744+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:34:45.740+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/download_NASA_API_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 15, in <module>
+    os.makedirs(output_estado_raw, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/airflow'
+[2024-03-23T03:34:45.744+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:34:45.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/download_NASA_API_dags.py took 0.404 seconds
+[2024-03-23T03:35:15.943+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:35:15.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/download_NASA_API_dags.py for tasks to queue
+[2024-03-23T03:35:15.945+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:35:15.945+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:35:16.328+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:35:16.324+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/download_NASA_API_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 15, in <module>
+    os.makedirs(output_estado_raw, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/airflow'
+[2024-03-23T03:35:16.329+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:35:16.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/download_NASA_API_dags.py took 0.423 seconds
+[2024-03-23T03:35:24.928+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:35:24.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/download_NASA_API_dags.py for tasks to queue
+[2024-03-23T03:35:24.929+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:35:24.929+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:35:25.324+0000] {logging_mixin.py:188} INFO - [2024-03-23T03:35:25.319+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/download_NASA_API_dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 15, in <module>
+    os.makedirs(output_estado_raw, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/usr/local/airflow'
+[2024-03-23T03:35:25.325+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/download_NASA_API_dags.py
+[2024-03-23T03:35:25.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/download_NASA_API_dags.py took 0.438 seconds

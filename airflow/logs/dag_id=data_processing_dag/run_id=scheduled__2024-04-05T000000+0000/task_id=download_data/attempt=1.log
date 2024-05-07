@@ -1,0 +1,26 @@
+[2024-04-06T16:36:14.737+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_processing_dag.download_data scheduled__2024-04-05T00:00:00+00:00 [queued]>
+[2024-04-06T16:36:14.764+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_processing_dag.download_data scheduled__2024-04-05T00:00:00+00:00 [queued]>
+[2024-04-06T16:36:14.765+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-04-06T16:36:14.819+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): download_data> on 2024-04-05 00:00:00+00:00
+[2024-04-06T16:36:14.824+0000] {standard_task_runner.py:60} INFO - Started process 161 to run task
+[2024-04-06T16:36:14.826+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'data_processing_dag', 'download_data', 'scheduled__2024-04-05T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/download_NASA_API_dags.py', '--cfg-path', '/tmp/tmpsyx0a6dz']
+[2024-04-06T16:36:14.828+0000] {standard_task_runner.py:88} INFO - Job 19: Subtask download_data
+[2024-04-06T16:36:14.948+0000] {task_command.py:423} INFO - Running <TaskInstance: data_processing_dag.download_data scheduled__2024-04-05T00:00:00+00:00 [running]> on host 29c65f98c54a
+[2024-04-06T16:36:15.141+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_processing_dag' AIRFLOW_CTX_TASK_ID='download_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-05T00:00:00+00:00'
+[2024-04-06T16:38:11.364+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/download_NASA_API_dags.py", line 41, in download_data
+    logging.info('Data downloaded successfully')
+NameError: name 'logging' is not defined
+[2024-04-06T16:38:11.390+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=data_processing_dag, task_id=download_data, execution_date=20240405T000000, start_date=20240406T163614, end_date=20240406T163811
+[2024-04-06T16:38:11.453+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 19 for task download_data (name 'logging' is not defined; 161)
+[2024-04-06T16:38:11.476+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-04-06T16:38:11.525+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
